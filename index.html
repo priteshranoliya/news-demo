@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News App</title>
+    <title>NEWS APP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <nav>
-        <div class="main-nav container flex">
-            <a href="#" onclick="reload()" class="company-logo">
-                <img src="./assets/logo.png" alt="company logo">
+        <div class="main-nav container flex" >
+            <a href="#" onclick="reload()" class="news-logo">
+                <img src="/assets/logo.png" alt="news logo">
             </a>
             <div class="nav-links">
                 <ul class="flex">
@@ -21,13 +20,13 @@
                     <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
                 </ul>
             </div>
-            <div class="search-bar flex">
-                <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
-                <button id="search-button" class="search-button">Search</button>
+            <div class="search-bar">
+                <input id="search-text" type="text" class="news-input" placeholder="e.g. Virat Kohli">
+                <button class="search-button" id="search-button">Search</button>
             </div>
         </div>
     </nav>
-    
+
 
     <main>
         <div class="cards-container container flex" id="cards-container">
@@ -50,4 +49,5 @@
 
     <script src="script.js"></script>
 </body>
-</html> 
+</html>
+
